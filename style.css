@@ -1,0 +1,36 @@
+body {
+    background:linear-gradient(violet,bisque);
+    color: rgb(28, 11, 160);
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    border: 5px solid palegoldenrod;
+    background:lightseagreen;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 40px;
+    cursor: pointer;
+    outline: none;
+}
+
+#stopwatch {
+    font-size: 100px;
+    font-weight: 900;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+}
+#buttons {
+    position: absolute;
+    top: 55%;
+    left: 48.4%;
+    transform: translate(-51.6%, -45%);
+}
+#buttons li {
+    display: inline;
+    padding-left: 30px;
+}
